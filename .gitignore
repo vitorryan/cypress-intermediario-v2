@@ -1,2 +1,5 @@
 #Ignorar o diretorio node modules
 /node_modules
+
+#Ignorar dados sensiveis
+/cypress/fixtures/sensitive-data/*.json
