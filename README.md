@@ -16,13 +16,13 @@
 <h3>Pré-requisitos</h3>
 <p>
     <ul>
-        <li>Docker</li>
-        <li>Git</li>
-        <li>Node.js</li>
-        <li>Npm (Ao instalar o Node.js o npm é instalado junto)</li>
-        <li>Visual Studio Code</li>
+        <li>Docker.</li>
+        <li>Git.</li>
+        <li>Node.js.</li>
+        <li>Npm (Ao instalar o Node.js o npm é instalado junto).</li>
+        <li>Visual Studio Code.</li>
     </ul>
 </p>
 
 
-<p>Sinta-se à vontade para explorar!<span>&#x1F680;</span></p>
+<h5>Sinta-se à vontade para explorar!<span>&#x1F680;</span></h5>
