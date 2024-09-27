@@ -2,4 +2,8 @@
 /node_modules
 
 #Ignorar dados sensiveis
+.DS_Store
 /cypress/fixtures/sensitive-data/*.json
+/cypress/screenshots
+/cypress/videos
+/cypress/downloads

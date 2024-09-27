@@ -2,15 +2,18 @@
   "name": "cypress-intermediario-v2",
   "version": "1.0.0",
   "description": "Curso de cypress nivel intermediario",
-  "main": "index.js",
+  "main": "cypress.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vitor Ryan da Rosa <darosa02@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^9.0.2",
     "cypress": "^13.15.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
   }
 }
