@@ -38,3 +38,4 @@ Cypress.Commands.add('CreateIssue', issue => {
     cy.get('.qa-issuable-form-description').type(issue.description)
     cy.get('.qa-issuable-create-button').click()
 })
+
