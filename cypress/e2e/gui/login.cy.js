@@ -1,7 +1,11 @@
 describe('Testando a tela de login', () => {
-  it('Sucesso', () => {
+  beforeEach(() => {
     cy.login()
+  })
 
-    cy.get('[data-qa-selector="welcome_title_content"]').should('be.visible')
+  it('Sucesso', () => {
+    //cy.login()
+    cy.visit('users/sign_in')
+    cy.get('.qa-user-avatar').should('be.visible')
   })
 })

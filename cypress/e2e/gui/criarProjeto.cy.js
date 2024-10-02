@@ -1,4 +1,4 @@
-import { faker } from '@faker-js/faker'
+import { faker } from '@faker-js/faker';
 
 
 describe('Criando um projeto', () => {
@@ -8,7 +8,7 @@ describe('Criando um projeto', () => {
 
     it('Sucesso', () => {
         const project = {
-            name: `project-${faker.person.firstName()}`,
+            name: `project-${faker.string.uuid()}`,
             description: faker.word.words(5)
         }
 
