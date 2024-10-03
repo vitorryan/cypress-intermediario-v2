@@ -7,4 +7,4 @@
 /cypress/screenshots
 /cypress/videos
 /cypress/downloads
-/cypress/cypress.env.json
+cypress.env.json
